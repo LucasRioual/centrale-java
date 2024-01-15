@@ -4,8 +4,8 @@ public class HandFactory {
 
     public static Hand from(String hand){
         return switch (hand) {
-            case "Pierre" -> new Pierre();
-            case "Feuille" -> new Feuille();
+            case "pierre" -> new Pierre();
+            case "feuille" -> new Feuille();
             default -> new Ciseaux();
         };
     }

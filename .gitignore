@@ -31,3 +31,4 @@ build
 
 # Ignore
 .idea
+application.properties
