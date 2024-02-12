@@ -4,4 +4,6 @@ include 'cli'
 include 'api'
 include 'domain:tourniquet'
 findProject(':domain:tourniquet')?.name = 'tourniquet'
+include 'Composite'
+include 'Visiteur'
 
